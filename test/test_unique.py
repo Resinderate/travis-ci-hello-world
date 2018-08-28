@@ -13,3 +13,6 @@ class TestUnique(unittest.TestCase):
 
     def test_case_sensitive(self):
         assert is_unique("Unique")
+
+    def test_invalid_test(self):
+        assert is_unique("aaabbb")
